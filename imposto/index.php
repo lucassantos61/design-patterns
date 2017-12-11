@@ -12,6 +12,7 @@
 	require "Desconto5Itens.php";
 	require "Desconto500Reais.php";
 	require "Desconto300Reais.php";
+	require "DescontoPorVendaCasada.php";
 	require "SemDesconto.php";
 	
 	$reforma = new Orcamento(301);
@@ -39,10 +40,7 @@
 
 	echo "Desconto</br>";
 
-	$reforma->addItem(new Item("Tijolo",250));
-	$reforma->addItem(new Item("Cimento de 1kg",250));
-	$reforma->addItem(new Item("Cimento de 1kg",250));
-	$reforma->addItem(new Item("Cimento de 1kg",250));
-	
+	$reforma->addItem(new Item("LAPIS",50));
+	$reforma->addItem(new Item("CANETA",50));
 	echo $CalculadoraDeDesconto->desconto($reforma);
 
