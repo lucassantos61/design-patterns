@@ -1,19 +1,19 @@
 <?php
-	require 'Orcamento.php';	
-	require 'CaculadoraDeImpostos.php';
-	require 'CalculadoraDeDesconto.php';
-	require 'Imposto.php';
-	require 'ISS.php';
-	require 'ICMS.php';
-	require 'KCV.php';
-	require 'ICCC.php';
-	require 'Item.php';
-	require "Desconto.php";
-	require "Desconto5Itens.php";
-	require "Desconto500Reais.php";
-	require "Desconto300Reais.php";
-	require "DescontoPorVendaCasada.php";
-	require "SemDesconto.php";
+	require 'imposto/Orcamento.php';	
+	require 'imposto/CaculadoraDeImpostos.php';
+	require 'desconto/CalculadoraDeDesconto.php';
+	require 'imposto/Imposto.php';
+	require 'imposto/ISS.php';
+	require 'imposto/ICMS.php';
+	require 'imposto/KCV.php';
+	require 'imposto/ICCC.php';
+	require 'imposto/Item.php';
+	require "desconto/Desconto.php";
+	require "desconto/Desconto5Itens.php";
+	require "desconto/Desconto500Reais.php";
+	require "desconto/Desconto300Reais.php";
+	require "desconto/DescontoPorVendaCasada.php";
+	require "desconto/SemDesconto.php";
 	
 	$reforma = new Orcamento(301);
 
